@@ -8,7 +8,7 @@ from os import environ as env
 import models
 
 
-class State(BaseModel):
+class State(BaseModel, Base):
     """ State class 
     Attributes:
         __tablename__: table name
